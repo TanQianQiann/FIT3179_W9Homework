@@ -53,10 +53,10 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [10, 20, 30],
-            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+            "domain": [10, 20, 30, 40],
+            "range": ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
           },
-          "legend": {"title": "Birth Rate"}
+          "legend": {"title": "Number of births (per 1,000 population)", "titleLimit": 250}
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
